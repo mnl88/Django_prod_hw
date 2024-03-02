@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mysite"
+version = "0.1.0"
+description = "Skillbox Python Django homework"
+authors = ["Nikita Matiushenkov <mnl88@yandex.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "4.2.1"
+djangorestframework = "^3.14.0"
+django-filter = "^23.5"
+django-debug-toolbar = "^4.3.0"
+pillow = "^10.2.0"
+gunicorn = "^21.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
